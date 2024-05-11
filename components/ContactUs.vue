@@ -1,5 +1,5 @@
 <template>
-  <div class="top">   
+  <div>   
     <v-img
       width="100vw"
       src="/bgmap.png"
@@ -12,7 +12,7 @@
           <v-col cols>
             <v-card
               max-width="375"
-              class="mx-auto cont"
+              class="mx-auto"
             >
               <!-- <v-img
                 src="https://cdn.vuetifyjs.com/images/lists/ali.png"

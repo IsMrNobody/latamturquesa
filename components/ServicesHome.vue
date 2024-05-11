@@ -46,7 +46,7 @@ export default {
 
 <style>
 .top {
-  margin-top: 300px;
+  margin-top: 140px;
   /* margin-bottom: 300px; */
 }
 </style>

@@ -2,7 +2,6 @@
   <div>
     <v-img
       width="100vw"
-      height="95vh"
       class="mx-auto"
       src="https://images.pexels.com/photos/22870043/pexels-photo-22870043/free-photo-of-ciudad-puesta-de-sol-punto-de-referencia-edificios.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     >
@@ -11,16 +10,19 @@
           <v-row>
             <v-col class="topm">
               <v-card
-                class="ma-2 pa-2 bgc"
+                class="bgc"
                 flat
                 max-width="600"
               >
-                <h1>Services worldwide</h1>
-                <p class="display-1">Explore business opportunities, expert consulting, and unique travel experiences.</p>
+                <h1 class="ma-2">Services worldwide</h1>
+                <p class="ma-2 display-1">Explore business opportunities, expert consulting, and unique travel experiences.</p>
                 <v-card-actions>
                   <v-btn class="bton" x-large outlined>Explore more</v-btn>
                 </v-card-actions>
-              <v-img class="d-flex d-sm-none" height="" src="/mapa.png"></v-img>
+              <v-img
+                class="d-flex d-sm-none ma-4"
+                src="/mapa.png">
+              </v-img>
               </v-card>
             </v-col>
             <!-- <v-col align="center">
@@ -51,7 +53,7 @@
     right: 1px;
   }
   .topm {
-    margin-top: 80px;
+    margin-top: 30px;
   }
   .bgc {
     background: rgba(255, 255, 255, 0.22);
