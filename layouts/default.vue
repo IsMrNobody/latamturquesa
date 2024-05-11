@@ -36,7 +36,7 @@
       <v-btn icon @click.stop="fixed = !fixed">
         <v-icon>mdi-minus</v-icon>
       </v-btn> -->
-      <v-spacer class="d-flex d-sm-none" />
+      <!-- <v-spacer class="d-flex d-sm-none" /> -->
       <v-toolbar-title >
         <nuxt-link to="/">
           <v-img class="ml-4" src="/logolatamtext.png"></v-img>
