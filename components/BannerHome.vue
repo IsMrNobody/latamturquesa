@@ -10,7 +10,7 @@
           <v-row>
             <v-col class="topm">
               <v-card
-                class="bgc trasnparent"
+                class="bgc"
                 flat
                 max-width="600"
               >
@@ -57,7 +57,7 @@
   }
   .bgc {
     background: rgba(255, 255, 255, 0.22);
-    /* border-radius: 16px; */
+    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.1px);
     -webkit-backdrop-filter: blur(7.1px);
