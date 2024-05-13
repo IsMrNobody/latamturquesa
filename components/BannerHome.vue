@@ -64,6 +64,6 @@
     -webkit-backdrop-filter: blur(7.1px);
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    width: 600px;
+    max-width: 600px;
   }
 </style>
