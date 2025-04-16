@@ -15,7 +15,9 @@
           <v-col class="topm">
             <div class="bgc">
               <v-card class="transparent" flat max-width="600">
-                <h1 class="ma-2">LATAM TURQUESA</h1>
+                <h1 class="main-title text-center text-sm-left ma-2 pa-2">
+                  LATAM TURQUESA
+                </h1>
                 <p class="ma-2 display-1">
                   {{ $t('homeTagline') }}
                 </p>
@@ -42,8 +44,21 @@
 .bton :hover {
   color: cyan;
 }
-h1 {
+.main-title {
   font-size: 80px;
+  font-weight: bold;
+  line-height: 1.2;
+  word-break: break-word;
+}
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 400px) {
+  .main-title {
+    font-size: 40px;
+  }
 }
 .opa {
   /* opacity: 0.7; */
