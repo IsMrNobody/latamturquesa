@@ -65,7 +65,7 @@
                   </v-list-item-icon>
 
                   <v-list-item-content>
-                    <v-list-item-title>(650) 555-1234</v-list-item-title>
+                    <v-list-item-title>(+90) 530 849 15 51</v-list-item-title>
                     <v-list-item-subtitle>Mobile</v-list-item-subtitle>
                   </v-list-item-content>
 
@@ -78,7 +78,7 @@
                   <v-list-item-action></v-list-item-action>
 
                   <v-list-item-content>
-                    <v-list-item-title>(323) 555-6789</v-list-item-title>
+                    <v-list-item-title>(+57) 3104251095</v-list-item-title>
                     <v-list-item-subtitle>Work</v-list-item-subtitle>
                   </v-list-item-content>
 
@@ -98,18 +98,18 @@
 
                   <v-list-item-content>
                     <v-list-item-title>latamturquesa@gmail.com</v-list-item-title>
-                    <v-list-item-subtitle>Personal</v-list-item-subtitle>
+                    <v-list-item-subtitle>Work</v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
 
-                <v-list-item>
+                <!-- <v-list-item>
                   <v-list-item-action></v-list-item-action>
 
                   <v-list-item-content>
                     <v-list-item-title>latamturquesa@gmail.com</v-list-item-title>
                     <v-list-item-subtitle>Work</v-list-item-subtitle>
                   </v-list-item-content>
-                </v-list-item>
+                </v-list-item> -->
 
                 <v-divider inset></v-divider>
 

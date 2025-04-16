@@ -8,7 +8,7 @@
     <ServicesHome />
     <v-col class="top">
       <v-col cols="12" align="center">
-        <h3 class="primary--text display-1">Why Choose Us</h3>
+        <h3 class="primary--text display-1">{{ $t('whyChooseUs') }}</h3>
       </v-col>
       <TimeLineHome />
     </v-col>
@@ -22,5 +22,17 @@
 <script>
 export default {
   name: 'IndexPage',
+  head() {
+    return {
+      title: 'LATAM TURQUESA',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$t('siteDescription'),
+        },
+      ],
+    }
+  },
 }
 </script>

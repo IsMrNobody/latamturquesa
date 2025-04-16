@@ -21,7 +21,9 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    '~/plugins/i18n-init.js'
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -38,12 +40,36 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // Módulo de internacionalización
+    '@nuxtjs/i18n',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
+  },
+
+  // Configuración del módulo i18n
+  i18n: {
+    locales: [
+      { code: 'es', name: 'Español', file: 'es.js' },
+      { code: 'en', name: 'English', file: 'en.js' },
+      { code: 'tr', name: 'Türkçe', file: 'tr.js' }
+    ],
+    defaultLocale: 'es',
+    langDir: 'lang/',
+    strategy: 'no_prefix',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      onlyOnRoot: true
+    },
+    vueI18n: {
+      fallbackLocale: 'es',
+      silentTranslationWarn: process.env.NODE_ENV === 'production'
+    },
+    lazy: false
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
