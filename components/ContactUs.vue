@@ -59,70 +59,29 @@
               <v-list two-line>
                 <v-list-item>
                   <v-list-item-icon>
-                    <v-icon color="primary">
-                      mdi-phone
-                    </v-icon>
+                    <v-icon color="primary">mdi-account</v-icon>
                   </v-list-item-icon>
-
                   <v-list-item-content>
-                    <v-list-item-title>(+90) 530 849 15 51</v-list-item-title>
-                    <v-list-item-subtitle>Mobile</v-list-item-subtitle>
-                  </v-list-item-content>
-
-                  <v-list-item-icon>
-                    <v-icon>mdi-message-text</v-icon>
-                  </v-list-item-icon>
-                </v-list-item>
-
-                <v-list-item>
-                  <v-list-item-action></v-list-item-action>
-
-                  <v-list-item-content>
-                    <v-list-item-title>(+57) 3104251095</v-list-item-title>
-                    <v-list-item-subtitle>Work</v-list-item-subtitle>
-                  </v-list-item-content>
-
-                  <v-list-item-icon>
-                    <v-icon>mdi-message-text</v-icon>
-                  </v-list-item-icon>
-                </v-list-item>
-
-                <v-divider inset></v-divider>
-
-                <v-list-item>
-                  <v-list-item-icon>
-                    <v-icon color="primary">
-                      mdi-email
-                    </v-icon>
-                  </v-list-item-icon>
-
-                  <v-list-item-content>
-                    <v-list-item-title>latamturquesa@gmail.com</v-list-item-title>
-                    <v-list-item-subtitle>Work</v-list-item-subtitle>
+                    <v-list-item-title>Volkan Founder</v-list-item-title>
+                    <v-list-item-subtitle>
+                      <a href="mailto:volkan@latamturquesa.com" class="text-decoration-none">volkan@latamturquesa.com</a>
+                      <br />
+                      <span>+90 530 849 15 51</span>
+                    </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
 
-                <!-- <v-list-item>
-                  <v-list-item-action></v-list-item-action>
-
-                  <v-list-item-content>
-                    <v-list-item-title>latamturquesa@gmail.com</v-list-item-title>
-                    <v-list-item-subtitle>Work</v-list-item-subtitle>
-                  </v-list-item-content>
-                </v-list-item> -->
-
-                <v-divider inset></v-divider>
-
                 <v-list-item>
                   <v-list-item-icon>
-                    <v-icon color="primary">
-                      mdi-map-marker
-                    </v-icon>
+                    <v-icon color="primary">mdi-account</v-icon>
                   </v-list-item-icon>
-
                   <v-list-item-content>
-                    <v-list-item-title>1400 Main Street</v-list-item-title>
-                    <v-list-item-subtitle>Turquia, FL 79938</v-list-item-subtitle>
+                    <v-list-item-title>Gloria</v-list-item-title>
+                    <v-list-item-subtitle>
+                      <a href="mailto:info@latamturquesa.com" class="text-decoration-none">info@latamturquesa.com</a>
+                      <br />
+                      <span>+52 55 1473 0198</span>
+                    </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
               </v-list>
