@@ -27,20 +27,20 @@
             </v-list-item-content>
           </v-list-item>
 
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon color="primary">mdi-account</v-icon>
-            </v-list-item-icon>
-            <v-list-item-content>
-              <v-list-item-title>Gloria</v-list-item-title>
-              <v-list-item-subtitle>
-                <a href="mailto:info@latamturquesa.com" class="text-decoration-none">info@latamturquesa.com</a>
-                <br />
-                <span>+52 55 1473 0198</span>
-              </v-list-item-subtitle>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
+          // <v-list-item>
+          //  <v-list-item-icon>
+          //    <v-icon color="primary">mdi-account</v-icon>
+          //   </v-list-item-icon>
+          //   <v-list-item-content>
+          //    <v-list-item-title>Gloria</v-list-item-title>
+          //    <v-list-item-subtitle>
+          //      <a href="mailto:info@latamturquesa.com" class="text-decoration-none">info@latamturquesa.com</a>
+          //      <br />
+          //      <span>+52 55 1473 0198</span>
+          //    </v-list-item-subtitle>
+          //   </v-list-item-content>
+          //  </v-list-item>
+          // </v-list>
 
         <div class="mt-6">
           <h3 class="subtitle-1 mb-3">{{ $t('followUs') }}</h3>
