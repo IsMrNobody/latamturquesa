@@ -108,5 +108,6 @@ export default {
   
   // Otros
   other: 'Otro',
-  contactDescription: 'Póngase en contacto con LATAM TURQUESA, su socio estratégico para conectar empresas entre América Latina y Turquía.'
+  contactDescription: 'Póngase en contacto con LATAM TURQUESA, su socio estratégico para conectar empresas entre América Latina y Turquía.',
+  address: 'Av. Aquilino de la guardia y calle 47, edif. Ocean business plaza, piso 12 oficina 1203, Panamá'
 } 

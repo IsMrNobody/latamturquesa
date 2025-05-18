@@ -108,5 +108,6 @@ export default {
   
   // Other
   other: 'Other',
-  contactDescription: 'Contact LATAM TURQUESA, your strategic partner for connecting businesses between Latin America and Türkiye.'
+  contactDescription: 'Contact LATAM TURQUESA, your strategic partner for connecting businesses between Latin America and Türkiye.',
+  address: 'Av. Aquilino de la guardia y calle 47, edif. Ocean business plaza, piso 12 oficina 1203, Panama'
 } 
