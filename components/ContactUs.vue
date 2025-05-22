@@ -3,7 +3,7 @@
     <v-img width="100vw" src="/bgmap.png">
       <v-row align="center" justify="center" class="top">
         <v-col cols>
-          <v-card max-width="375" class="mx-auto">
+          <v-card width="375" class="mx-auto">
             <!-- <v-img
                 src="https://cdn.vuetifyjs.com/images/lists/ali.png"
                 height="300px"
@@ -70,7 +70,7 @@
                   <v-icon color="primary">mdi-map-marker</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
-                  <v-list-item-title>{{ $t('address') }}</v-list-item-title>
+                  <p>{{ $t('address') }}</p>
                 </v-list-item-content>
               </v-list-item>
 
@@ -111,5 +111,11 @@ export default {
 <style scoped>
 .cont {
   top: -300px;
+}
+
+.v-list-item-title {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
 }
 </style>

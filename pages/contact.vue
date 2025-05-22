@@ -20,7 +20,11 @@
             <v-list-item-content>
               <v-list-item-title>Volkan Founder</v-list-item-title>
               <v-list-item-subtitle>
-                <a href="mailto:volkan@latamturquesa.com" class="text-decoration-none">volkan@latamturquesa.com</a>
+                <a
+                  href="mailto:volkan@latamturquesa.com"
+                  class="text-decoration-none"
+                  >volkan@latamturquesa.com</a
+                >
                 <br />
                 <span>+90 530 849 15 51</span>
               </v-list-item-subtitle>
@@ -32,7 +36,7 @@
               <v-icon color="primary">mdi-map-marker</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <v-list-item-title>{{ $t('address') }}</v-list-item-title>
+              <p>{{ $t('address') }}</p>
             </v-list-item-content>
           </v-list-item>
 
@@ -48,8 +52,8 @@
                <span>+52 55 1473 0198</span>
              </v-list-item-subtitle>
             </v-list-item-content>
-           </v-list-item>
-          </v-list> -->
+           </v-list-item> -->
+        </v-list>
 
         <div class="mt-6">
           <h3 class="subtitle-1 mb-3">{{ $t('followUs') }}</h3>
