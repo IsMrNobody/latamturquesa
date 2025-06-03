@@ -29,17 +29,7 @@
                 <span>+90 530 849 15 51</span>
               </v-list-item-subtitle>
             </v-list-item-content>
-          </v-list-item>
-
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon color="primary">mdi-map-marker</v-icon>
-            </v-list-item-icon>
-            <v-list-item-content>
-              <p>{{ $t('address') }}</p>
-            </v-list-item-content>
-          </v-list-item>
-
+          </v-list-item>          
           <!-- <v-list-item>
            <v-list-item-icon>
              <v-icon color="primary">mdi-account</v-icon>
