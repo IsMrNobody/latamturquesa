@@ -66,11 +66,7 @@ export default {
     defaultLocale: 'es',
     langDir: 'lang/',
     strategy: 'prefix_except_default',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      onlyOnRoot: true,
-    },
+    detectBrowserLanguage: false,
     vueI18n: {
       fallbackLocale: 'es',
       silentTranslationWarn: process.env.NODE_ENV === 'production',
