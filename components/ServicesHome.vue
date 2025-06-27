@@ -27,7 +27,7 @@ export default {
         },
         {
           titleKey: 'tourismCulturalExchange',
-          img: 'https://images.pexels.com/photos/2087391/pexels-photo-2087391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+          img: 'https://images.pexels.com/photos/14555786/pexels-photo-14555786.jpeg',
           descriptionKey: 'tourismDescription',
         },
         {

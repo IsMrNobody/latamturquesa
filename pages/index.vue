@@ -23,13 +23,15 @@
 export default {
   name: 'IndexPage',
   head() {
+    const title = this.$t('seo.home.title');
+    const description = this.$t('seo.home.description');
     return {
-      title: 'LATAM TURQUESA',
+      title,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.$t('siteDescription'),
+          content: description,
         },
       ],
     }

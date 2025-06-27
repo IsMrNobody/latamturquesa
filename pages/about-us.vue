@@ -79,13 +79,15 @@
 export default {
   name: 'AboutUsPage',
   head() {
+    const title = this.$t('seo.about.title');
+    const description = this.$t('seo.about.description');
     return {
-      title: this.$t('aboutUsTitle') + ' | LATAM TURQUESA',
+      title,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.$t('aboutUsDescription'),
+          content: description,
         },
       ],
     }

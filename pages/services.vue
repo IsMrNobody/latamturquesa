@@ -193,13 +193,15 @@ export default {
     }
   },
   head() {
+    const title = this.$t('seo.services.title');
+    const description = this.$t('seo.services.description');
     return {
-      title: this.$t('ourServices') + ' | LATAM TURQUESA',
+      title,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.$t('servicesDescription'),
+          content: description,
         },
       ],
     }

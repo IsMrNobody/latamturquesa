@@ -29,6 +29,17 @@
                 <span>+90 530 849 15 51</span>
               </v-list-item-subtitle>
             </v-list-item-content>
+          </v-list-item>
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon color="primary">mdi-map-marker</v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-title>{{ $t("addressTitle") }}</v-list-item-title>
+              <v-list-item-subtitle class="text-wrap">
+                {{ $t("address") }}
+              </v-list-item-subtitle>
+            </v-list-item-content>
           </v-list-item>          
           <!-- <v-list-item>
            <v-list-item-icon>
@@ -191,13 +202,15 @@ export default {
     },
   },
   head() {
+    const title = this.$t('seo.contact.title');
+    const description = this.$t('seo.contact.description');
     return {
-      title: this.$t('contactTitle') + ' | LATAM TURQUESA',
+      title,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.$t('contactDescription'),
+          content: description,
         },
       ],
     }

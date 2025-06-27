@@ -5,16 +5,22 @@ export default {
   head: {
     titleTemplate: '%s - latamTurquesa',
     title: 'latamTurquesa',
-    htmlAttrs: {
-      lang: 'en',
-    },
+
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+        link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@700&display=swap',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -53,23 +59,24 @@ export default {
   // Configuración del módulo i18n
   i18n: {
     locales: [
-      { code: 'es', name: 'Español', file: 'es.js' },
-      { code: 'en', name: 'English', file: 'en.js' },
-      { code: 'tr', name: 'Türkçe', file: 'tr.js' }
+      { code: 'es', iso: 'es-ES', name: 'Español', file: 'es.js' },
+      { code: 'en', iso: 'en-US', name: 'English', file: 'en.js' },
+      { code: 'tr', iso: 'tr-TR', name: 'Türkçe', file: 'tr.js' }
     ],
     defaultLocale: 'es',
     langDir: 'lang/',
-    strategy: 'no_prefix',
+    strategy: 'prefix_except_default',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
-      onlyOnRoot: true
+      onlyOnRoot: true,
     },
     vueI18n: {
       fallbackLocale: 'es',
-      silentTranslationWarn: process.env.NODE_ENV === 'production'
+      silentTranslationWarn: process.env.NODE_ENV === 'production',
     },
-    lazy: false
+    lazy: false,
+    seo: true,
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify

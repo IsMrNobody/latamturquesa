@@ -13,7 +13,7 @@ export default {
   siteDescription: 'LATAM TURQUESA provides personalized services in trade, tourism, and consulting between Latin America and Türkiye.',
 
   // ParallaxHome component
-  buildConnections: 'Build your connections today!',
+  slogan: 'Turkey in your hands',
 
   // AboutUs component
   connectingRegions: 'Connecting Latin America and Türkiye',
@@ -109,5 +109,26 @@ export default {
   // Other
   other: 'Other',
   contactDescription: 'Contact LATAM TURQUESA, your strategic partner for connecting businesses between Latin America and Türkiye.',
-  address: 'Av. Aquilino de la guardia y calle 47, edif. Ocean business plaza, piso 12 oficina 1203, Panama'
-} 
+  addressTitle: 'Address',
+  address: 'OT Latam Inc., Av. Aquilino de la guardia y calle 47, edif. Ocean business plaza, piso 12 oficina 1203, Panama, Republic of Panama, N° 155654362',
+
+  // SEO
+  seo: {
+    home: {
+      title: 'Connecting Latin America & Turkey | LATAM TURQUESA',
+      description: 'We offer B2B, consulting, and tourism services to connect the markets of Latin America and Turkey. Explore unique business opportunities.'
+    },
+    about: {
+      title: 'About Us | Your Strategic Partner | LATAM TURQUESA',
+      description: 'Meet our multicultural team and learn how we can help you navigate the markets of Latin America and Turkey with expertise and confidence.'
+    },
+    services: {
+      title: 'Consulting, B2B & Tourism Services | LATAM TURQUESA',
+      description: 'Discover our tailored services, from B2B matchmaking to market research and cultural exchange programs between LATAM and Turkey.'
+    },
+    contact: {
+      title: 'Contact | Start a Conversation | LATAM TURQUESA',
+      description: 'Contact us to explore business opportunities between Latin America and Turkey. Our team is ready to help you grow.'
+    }
+  }
+}

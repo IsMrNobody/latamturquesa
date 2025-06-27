@@ -15,7 +15,7 @@
         <v-img
           height="300"
           max-width="auto"
-          src="https://i.pinimg.com/564x/53/f0/d5/53f0d54e87c99ea7b595f5309268ad9d.jpg"
+          src="https://res.cloudinary.com/dku13l2ep/image/upload/v1750983104/latamturquesa/ChatGPT_Image_26_jun_2025_20_10_48_egokv5.png"
         >
         </v-img>
       </v-col>

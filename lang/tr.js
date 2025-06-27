@@ -13,7 +13,7 @@ export default {
   siteDescription: 'LATAM TURQUESA, Latin Amerika ve Türkiye arasında ticaret, turizm ve danışmanlık alanlarında kişiselleştirilmiş hizmetler sunmaktadır.',
 
   // ParallaxHome bileşeni
-  buildConnections: 'Bağlantılarınızı bugün kurun!',
+  slogan: 'Türkiye ellerinde',
 
   // AboutUs bileşeni
   connectingRegions: 'Latin Amerika ve Türkiye\'yi Bağlıyoruz',
@@ -109,5 +109,26 @@ export default {
   // Diğer
   other: 'Diğer',
   contactDescription: 'LATAM TURQUESA ile iletişime geçin, Latin Amerika ve Türkiye arasında işletmeleri bağlayan stratejik ortağınız.',
-  address: 'Av. Aquilino de la guardia y calle 47, edif. Ocean business plaza, piso 12 oficina 1203, Panama'
-} 
+  addressTitle: 'Adres',
+  address: 'OT Latam Inc., Av. Aquilino de la guardia y calle 47, edif. Ocean business plaza, piso 12 oficina 1203, Panama, Republic of Panama, N° 155654362',
+
+  // SEO
+  seo: {
+    home: {
+      title: 'Latin Amerika ve Türkiye\'yi Birleştiriyoruz | LATAM TURQUESA',
+      description: 'Latin Amerika ve Türkiye pazarlarını birleştirmek için B2B, danışmanlık ve turizm hizmetleri sunuyoruz. Benzersiz iş fırsatlarını keşfedin.'
+    },
+    about: {
+      title: 'Hakkımızda | Stratejik Ortağınız | LATAM TURQUESA',
+      description: 'Çok kültürlü ekibimizle tanışın ve Latin Amerika ve Türkiye pazarlarında uzmanlık ve güvenle nasıl ilerlemenize yardımcı olabileceğimizi öğrenin.'
+    },
+    services: {
+      title: 'Danışmanlık, B2B ve Turizm Hizmetleri | LATAM TURQUESA',
+      description: 'LATAM ve Türkiye arasında B2B eşleştirmeden pazar araştırmasına ve kültürel değişim programlarına kadar özel hizmetlerimizi keşfedin.'
+    },
+    contact: {
+      title: 'İletişim | Bir Görüşme Başlatın | LATAM TURQUESA',
+      description: 'Latin Amerika ve Türkiye arasındaki iş fırsatlarını keşfetmek için bize ulaşın. Ekibimiz büyümenize yardımcı olmaya hazır.'
+    }
+  }
+}
