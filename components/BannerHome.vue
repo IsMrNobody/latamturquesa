@@ -4,7 +4,7 @@
       height="100vh"
       width="100vw"
       class="mx-auto"
-      src="https://images.pexels.com/photos/295813/pexels-photo-295813.jpeg"
+      src="https://res.cloudinary.com/dku13l2ep/image/upload/v1751126252/latamturquesa/pexels-hatice-baran-153179658-10748171_eajxqm.jpg"
       gradient="to top right, rgba(0,0,0,.4), rgba(0,0,0,.1)"
     >
       <v-img
