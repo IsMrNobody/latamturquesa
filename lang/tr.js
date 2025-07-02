@@ -37,6 +37,7 @@ export default {
   salesMarketing: 'Satış ve Pazarlama',
   consulting: 'Danışmanlık',
   marketResearch: 'Pazar Araştırması',
+  organizationAndEvents: 'Organizasyon ve Etkinlikler',
   requestInfo: 'Bilgi talebi',
   readyToExpandHorizons: 'Ufuklarınızı genişletmeye hazır mısınız?',
   teamReadyToHelp: 'Ekibimiz, Latin Amerika ve Türkiye arasındaki iş fırsatlarında size yardımcı olmak için hazır.',
@@ -48,6 +49,7 @@ export default {
   salesMarketingDescription: 'Markanızı yeni pazarlarda büyütmek için etkili stratejiler geliştiriyor ve yerelleştiriyoruz.',
   consultingDescription: 'Sektörünüze özel, pratik ve sonuç odaklı iş danışmanlığı sunuyoruz.',
   marketResearchDescription: 'Pazar raporlarımız, saha çalışmalarımız ve rakip analizlerimizle uygulanabilir içgörüler elde edin.',
+  organizationAndEventsDescription: 'LATAM TURQUESA olarak Latin Amerika ve Türkiye arasında iş toplantıları, ticari heyetler, sektörel fuarlar ve kültürel etkinlikler düzenliyoruz.',
 
   // Hizmet özellikleri
   strategicPartners: 'Stratejik ortak belirleme',
@@ -70,6 +72,10 @@ export default {
   competitorAnalysis: 'Rakip analizi',
   consumerSurveys: 'Tüketici anketleri',
   trendIdentification: 'Trend belirleme',
+  corporateMeetings: 'İş toplantıları',
+  tradeDelegations: 'Ticari heyetler',
+  industryFairs: 'Sektörel fuarlar',
+  culturalEvents: 'Kültürel etkinlikler',
 
   // Hakkımızda sayfası
   aboutUsTitle: 'Hakkımızda',

@@ -45,6 +45,11 @@ export default {
           img: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
           descriptionKey: 'marketResearchDescription',
         },
+        {
+          titleKey: 'organizationAndEvents',
+          img: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+          descriptionKey: 'organizationAndEventsDescription',
+        },
       ]
     },
   },

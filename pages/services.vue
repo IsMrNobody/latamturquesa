@@ -189,6 +189,21 @@ export default {
             { icon: 'mdi-trending-up', textKey: 'trendIdentification' },
           ],
         },
+        {
+          titleKey: 'organizationAndEvents',
+          descriptionKey: 'organizationAndEventsDescription',
+          image:
+            'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+          features: [
+            { icon: 'mdi-briefcase-account', textKey: 'corporateMeetings' },
+            { icon: 'mdi-airplane-plus', textKey: 'tradeDelegations' },
+            { icon: 'mdi-storefront', textKey: 'industryFairs' },
+            {
+              icon: 'mdi-human-greeting-variant',
+              textKey: 'culturalEvents',
+            },
+          ],
+        },
       ],
     }
   },

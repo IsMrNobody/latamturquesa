@@ -37,6 +37,7 @@ export default {
   salesMarketing: 'Sales & Marketing',
   consulting: 'Consulting',
   marketResearch: 'Market Research',
+  organizationAndEvents: 'Organization and Events',
   requestInfo: 'Request info',
   readyToExpandHorizons: 'Ready to expand your horizons?',
   teamReadyToHelp: 'Our team is ready to help you navigate business opportunities between Latin America and Türkiye.',
@@ -48,6 +49,7 @@ export default {
   salesMarketingDescription: 'We develop and localize effective strategies to grow your brand in new markets.',
   consultingDescription: 'We offer practical, results-driven business consulting tailored to your industry.',
   marketResearchDescription: 'Get actionable insights with our market reports, field studies, and competitor analysis.',
+  organizationAndEventsDescription: 'At LATAM TURQUESA, we organize business meetings, trade delegations, industry fairs, and cultural events between Latin America and Turkey.',
 
   // Service features
   strategicPartners: 'Strategic partner identification',
@@ -70,6 +72,10 @@ export default {
   competitorAnalysis: 'Competitor analysis',
   consumerSurveys: 'Consumer surveys',
   trendIdentification: 'Trend identification',
+  corporateMeetings: 'Business meetings',
+  tradeDelegations: 'Trade delegations',
+  industryFairs: 'Industry fairs',
+  culturalEvents: 'Cultural events',
 
   // About Us page
   aboutUsTitle: 'About Us',

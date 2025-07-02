@@ -37,6 +37,7 @@ export default {
   salesMarketing: 'Ventas y Marketing',
   consulting: 'Consultoría',
   marketResearch: 'Investigación de Mercado',
+  organizationAndEvents: 'Organización y Eventos',
   requestInfo: 'Solicitar información',
   readyToExpandHorizons: '¿Está listo para expandir sus horizontes?',
   teamReadyToHelp: 'Nuestro equipo está listo para ayudarle con oportunidades de negocio entre América Latina y Turquía.',
@@ -48,6 +49,7 @@ export default {
   salesMarketingDescription: 'Desarrollamos y adaptamos estrategias efectivas para hacer crecer su marca en nuevos mercados.',
   consultingDescription: 'Ofrecemos consultoría empresarial práctica y orientada a resultados, adaptada a su industria.',
   marketResearchDescription: 'Obtenga información accionable con nuestros informes de mercado, estudios de campo y análisis de la competencia.',
+  organizationAndEventsDescription: 'En LATAM TURQUESA organizamos encuentros empresariales, delegaciones comerciales, ferias sectoriales y eventos culturales entre América Latina y Turquía.',
 
   // Características de servicios
   strategicPartners: 'Identificación de socios estratégicos',
@@ -70,6 +72,10 @@ export default {
   competitorAnalysis: 'Análisis de la competencia',
   consumerSurveys: 'Encuestas a consumidores',
   trendIdentification: 'Identificación de tendencias',
+  corporateMeetings: 'Encuentros empresariales',
+  tradeDelegations: 'Delegaciones comerciales',
+  industryFairs: 'Ferias sectoriales',
+  culturalEvents: 'Eventos culturales',
 
   // Página Sobre Nosotros
   aboutUsTitle: 'Nosotros',
